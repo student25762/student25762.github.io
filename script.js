@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://young-caverns-66542.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://trello.com/hubertkrz/boards';
+  const trelloApiRoot = 'https://young-caverns-66542.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
