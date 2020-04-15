@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://young-caverns-66542.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'https://trello.com/b/UDVGR8MD/kodilla-application';
+  const trelloApiRoot = 'https://trello.com/hubertkrz/boards';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
